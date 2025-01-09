@@ -1,13 +1,13 @@
 import matplotlib.pyplot as plt
 
 x = [1, 2, 3, 4, 5]
-y1 = [10, 15, 25, 30, 35]
-y2 = [5, 10, 20, 25, 30]
+y1 = [2, 4, 6, 8, 10]
+y2 = [1, 3, 5, 7, 9]
 
-plt.fill_between(x, y1, y2, color='skyblue', alpha=0.4)
-
-plt.title('Area Chart')
+plt.fill_between(x, y1, color='skyblue', alpha=0.4)
+plt.fill_between(x, y2, color='salmon', alpha=0.4)
 plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
+plt.title('Area Plot Example')
 
 plt.show()
